@@ -1,3 +1,9 @@
+/*
+* File:   main.cpp
+* Author: Jakub Trhlík
+*
+* Created on	08.12.2013 12:05:59
+*/
 #ifndef __PROGTEST__
 #include <stdio.h>
 #include <string.h>
@@ -15,7 +21,7 @@ void rozsir (char ** res, int *resLen, int *resMax,const char * appendStr, int a
    memcpy ( *res + *resLen, appendStr, appendLen );
    *resLen += appendLen;
 }
- 
+
 int Obsahuje (char vyjimka [2][200][500], int pocetvyjimek,const char *replace){
     int i=0;
     for(i=0;i<=pocetvyjimek;i++)  {
@@ -29,13 +35,13 @@ char * strReplace ( char * text,const char *replace,const char *with, char vyjim
    char * res = 0, * occ, *nespravny;
    int    resLen = 0, resMax = 0;
    int    replaceLen = strlen ( replace ), withLen = strlen ( with );
-   
+
    if ( ! replaceLen ) return 0;
    while ( 1 ) {
        int radek=Obsahuje(vyjimka, pocetvyjimek, replace);
      occ = strstr ( text, replace );
       nespravny = strstr ( text, vyjimka[1][radek]);
-      if ( occ ) { 
+      if ( occ ) {
           /*if(radek!=-1)
           { printf("obsahuje \n");
         }
@@ -56,7 +62,7 @@ char * strReplace ( char * text,const char *replace,const char *with, char vyjim
            }
        }
       else {
-         rozsir ( &res, &resLen, &resMax, text, strlen ( text ) + 1 ); 
+         rozsir ( &res, &resLen, &resMax, text, strlen ( text ) + 1 );
          return ( res );
        }
     }
@@ -66,9 +72,9 @@ char * strReplace ( char * text,const char *replace,const char *with, char vyjim
 char * newSpeak ( const char * text, const char * (*replace)[2] )
  {
     int n=0,i=0,k=0;
-     
-   char vyjimka [2][200][500]; 
- /*   
+
+   char vyjimka [2][200][500];
+ /*
  char *(*vyjimka) [2];
   (*vyjimka)[0] =malloc(20*sizeof(char*));
    (*vyjimka)[1] =malloc(20*sizeof(char*));
@@ -77,51 +83,51 @@ for ( i = 0; i < 10; i++ )
 {
      vyjimka[i][0] =malloc(20*sizeof(char));
 }
-    
+
  for ( g = 0; g < 10; g++ )
 {
      vyjimka[g][1] =malloc(20*sizeof(char));
 }
- 
- */ 
+
+ */
      while(replace[n][0]!=NULL && replace[n][1]!=NULL)   {
       int i=1+n;
       int u=0;
-    
-      while(replace[i][0]!=NULL && replace[i][1]!=NULL) {    
+
+      while(replace[i][0]!=NULL && replace[i][1]!=NULL) {
          if(NULL!=strstr(replace[n][0], replace[i][0]) || NULL!=strstr(replace[i][0], replace[n][0]))
-          { 
+          {
           return 0;
           }
-         i++;  }  
+         i++;  }
        while(replace[n][0]!=NULL && replace[u][1]!=NULL){
-     if(NULL!=strstr(replace[n][0], replace[u][1]) || NULL!=strstr(replace[u][1], replace[n][0]))  { 
+     if(NULL!=strstr(replace[n][0], replace[u][1]) || NULL!=strstr(replace[u][1], replace[n][0]))  {
          /*
            *vyjimka_a = ( char* ) realloc ( *vyjimka_a, sizeof(char*)*(k+1) );
-                          
+
             *vyjimka_a[k] = ( char **) realloc ( *vyjimka_a[k], sizeof(char**)*(strlen(replace[u][1])+1) );
-            
+
               *vyjimka_b = ( char* ) realloc ( *vyjimka_b, sizeof(char*)*(k+1) );
-                          
+
             *vyjimka_b[k] = ( char **) realloc ( *vyjimka_b[k], sizeof(char**)*(strlen(replace[n][0])+1) );
             */
            strcpy (vyjimka[1][k],replace[u][1]);
           strcpy (vyjimka[0][k],replace[n][0]);
-          //  printf ( "%s ---------- %s\n", vyjimka[1][k],vyjimka[0][k]); 
-            k++;  
+          //  printf ( "%s ---------- %s\n", vyjimka[1][k],vyjimka[0][k]);
+            k++;
           }
       u++; }
-      n++; } 
-   
+      n++; }
+
   char *ttt =(char*) malloc (sizeof(char)*(strlen(text)+1));
-  
+
      strcpy(ttt,text);
-  
+
   while(i<n)
   {
  ttt=strReplace (ttt, replace[i][0], replace[i][1], vyjimka, k);
     i++;
-  } 
+  }
     return ttt;
  }
 
