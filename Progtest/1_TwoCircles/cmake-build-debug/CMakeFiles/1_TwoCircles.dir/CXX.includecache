@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/BI-PA1/Progtest/1_TwoCircles/main.cpp
+stdio.h
+-
+cstdlib
+-
+cmath
+-
+
