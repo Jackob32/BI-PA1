@@ -6,10 +6,10 @@
 */
 
 #include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
+#include <cstdlib>
+#include <cmath>
 
-int main(void) {
+int main() {
 
 
   //set initial values
