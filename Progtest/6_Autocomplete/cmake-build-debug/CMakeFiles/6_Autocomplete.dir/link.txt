@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -std=c++11 -W -Wno-long-long -O2 -Wall -Wextra -pedantic -g  -Wl,--enable-auto-import CMakeFiles/6_Autocomplete.dir/main.cpp.o  -o 6_Autocomplete.exe -Wl,--out-implib,lib6_Autocomplete.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

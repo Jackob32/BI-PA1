@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -std=c++11 -W -Wno-long-long -O2 -Wall -Wextra -pedantic -g  -Wl,--enable-auto-import CMakeFiles/2_TrackConstruction.dir/main.cpp.o  -o 2_TrackConstruction.exe -Wl,--out-implib,lib2_TrackConstruction.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

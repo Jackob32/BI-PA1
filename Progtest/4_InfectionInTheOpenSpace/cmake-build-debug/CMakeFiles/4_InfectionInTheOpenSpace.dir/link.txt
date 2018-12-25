@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/4_InfectionInTheOpenSpace.dir/main.cpp.o  -o 4_InfectionInTheOpenSpace.exe -Wl,--out-implib,lib4_InfectionInTheOpenSpace.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

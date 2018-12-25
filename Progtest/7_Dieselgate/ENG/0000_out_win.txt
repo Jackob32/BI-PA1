@@ -1,0 +1,5 @@
+Valve emissions:
+Highest emissions: 489
+A: 393
+B: 101, 109, 217
+C: 489

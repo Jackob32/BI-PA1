@@ -1,0 +1,3 @@
+Max ID:
+Offer and demand:
+Invalid input.

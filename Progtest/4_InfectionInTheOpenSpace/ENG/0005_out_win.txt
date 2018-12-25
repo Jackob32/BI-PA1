@@ -1,0 +1,2 @@
+Office dimensions:
+Infected: 35, infection span: 34

@@ -1,0 +1,2 @@
+Velikost kancelare:
+Nakazenych: 16, doba sireni nakazy: 6

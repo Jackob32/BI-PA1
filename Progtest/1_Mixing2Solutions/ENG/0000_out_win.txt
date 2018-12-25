@@ -1,0 +1,4 @@
+Mass and concentration #1:
+Mass and concentration #2:
+Mass and concentration of the result:
+0.333333 x #1 + 0.666667 x #2
