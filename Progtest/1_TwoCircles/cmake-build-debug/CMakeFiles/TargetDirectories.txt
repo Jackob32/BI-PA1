@@ -1,3 +1,3 @@
-/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/BI-PA1/Progtest/1_TwoCircles/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/BI-PA1/Progtest/1_TwoCircles/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/BI-PA1/Progtest/1_TwoCircles/cmake-build-debug/CMakeFiles/1_TwoCircles.dir
+/cygdrive/c/Users/Jakub/Desktop/GITHUB/C++/BI-PA1/Progtest/1_TwoCircles/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Jakub/Desktop/GITHUB/C++/BI-PA1/Progtest/1_TwoCircles/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/Jakub/Desktop/GITHUB/C++/BI-PA1/Progtest/1_TwoCircles/cmake-build-debug/CMakeFiles/1_TwoCircles.dir

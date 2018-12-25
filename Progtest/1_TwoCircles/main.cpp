@@ -3,6 +3,7 @@
 * Author: Jakub Trhlík
 *
 * Created on 02.11.2013 17:57:37
+g++ -std=c++11 -Wall -pedantic -Wno-long-long -O2 -o result *.cpp
 */
 
 #include <stdio.h>

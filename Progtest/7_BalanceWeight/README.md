@@ -1,3 +1,4 @@
+***Not finished***
 Úkolem je napsat program, který pomůže při vyvažování nákladu.
 
 Předpokládejme, že máme naložit náklad na nějaký dopravní prostředek (loď, letadlo). Aby byla zajištěna bezpečná doprava, je potřeba náklad vyvážit. Někdy to není možné rozmístěním vlastního nákladu a je potřeba přidat balastní náklad o zadané hmotnosti. Máme k dispozici normovaná závaží o definovaných hmotnostech, každé v libovolném množství kusů. Úkolem je sestavit z těchto normalizovaných závaží zadanou hmotnost s tím, že požadujeme co nejmenší množný počet kusů použitých závaží.

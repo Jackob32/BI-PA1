@@ -20,7 +20,7 @@ if (scanf ("%d", &n)!=1 || n < 1) {
      int vstup=n;
     while(1<sqrt(n)){
 
-       int temp;
+       int temp=-1;
       if(n % d == 0) {
        if(temp!=d){
           blb-=blb/d;

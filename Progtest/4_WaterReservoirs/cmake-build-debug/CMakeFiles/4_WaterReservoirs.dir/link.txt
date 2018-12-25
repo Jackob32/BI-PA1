@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/4_WaterReservoirs.dir/main.c.o  -o 4_WaterReservoirs.exe -Wl,--out-implib,lib4_WaterReservoirs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

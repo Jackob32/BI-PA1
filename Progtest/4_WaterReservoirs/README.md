@@ -1,3 +1,4 @@
+***Not finished***
 Úkolem je realizovat program, který umožní výpočet obsazení vodních nádrží.
 
 Předpokládáme, že vodovodní společnost spravuje zásobníky na vodu. Každý zásobník má tvar kvádru a je propojen vodovodním potrubím s ostatními zásobníky. Celkem je takto propojeno mnoho zásobníků, víte, že jich je nejvýše 200000\. Propojovací potrubí má pro účely výpočtu nulový objem. Situace je znázorněna na obrázku:

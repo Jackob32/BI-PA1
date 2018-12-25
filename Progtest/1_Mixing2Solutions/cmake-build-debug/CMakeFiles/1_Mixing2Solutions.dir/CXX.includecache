@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Jakub/Desktop/GITHUB/C++/BI-PA1/Progtest/1_Mixing2Solutions/main.cpp
+stdio.h
+-
+cstdlib
+-
+math.h
+-
+

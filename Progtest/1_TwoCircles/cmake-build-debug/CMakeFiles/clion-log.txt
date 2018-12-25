@@ -1,4 +1,4 @@
-C:\Users\Jakub\.CLion2018.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/BI-PA1/Progtest/1_TwoCircles
+C:\Users\Jakub\.CLion2018.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Jakub/Desktop/GITHUB/C++/BI-PA1/Progtest/1_TwoCircles
 -- The C compiler identification is GNU 6.4.0
 -- The CXX compiler identification is GNU 6.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -15,4 +15,4 @@ C:\Users\Jakub\.CLion2018.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/BI-PA1/Progtest/1_TwoCircles/cmake-build-debug
+-- Build files have been written to: /cygdrive/c/Users/Jakub/Desktop/GITHUB/C++/BI-PA1/Progtest/1_TwoCircles/cmake-build-debug

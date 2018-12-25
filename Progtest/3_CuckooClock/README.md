@@ -1,3 +1,4 @@
+***Not finished***
 Úkolem je realizovat funkci (ne celý program, pouze funkci), která bude počítat, kolikrát zakuká kukačka v kukačkových hodinách.
 
 Předpokládáme standardní kukačkové hodiny. Kukačka kuká vždy v půl a v celou hodinu. V půl kuká vždy pouze 1x, v celou kuká tolikrát, kolik ukazuje hodinová ručička. Tedy v půlnoci kuká 12x, v 1:00 kuká 1x, ve 2:00 kuká 2x, ..., ve 12:00 kuká 12x, v 13:00 kuká 1x, ve 14:00 kuká 2x, ...

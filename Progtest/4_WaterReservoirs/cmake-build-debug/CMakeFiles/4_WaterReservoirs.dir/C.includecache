@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Jakub/Desktop/GITHUB/C++/BI-PA1/Progtest/4_WaterReservoirs/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

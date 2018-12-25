@@ -1,1 +1,1 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/1_TwoCircles.dir/main.cpp.o  -o 1_TwoCircles.exe -Wl,--out-implib,lib1_TwoCircles.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/c++.exe  -std=c++11 -W -Wno-long-long -O2 -Wall -Wextra -pedantic -g  -Wl,--enable-auto-import CMakeFiles/1_TwoCircles.dir/main.cpp.o  -o 1_TwoCircles.exe -Wl,--out-implib,lib1_TwoCircles.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
